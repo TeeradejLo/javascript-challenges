@@ -1,0 +1,118 @@
+body {
+    padding-top: 5vh;
+}
+
+.container {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    padding: 30px;
+    text-align: center;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px;    
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ageAnswer {
+    width: 70%;
+    min-height: 80px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.flex-box-container-2 {
+    min-height: 300px;
+    display: flex;
+    border: 2px solid black;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-box-container-2 img {
+    object-fit: contain;
+    height: 125px;
+    margin: 15px;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+}
+
+.flex-box-container-3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 20px 40px 20px;
+}
+
+.flex-box-container-3 img:hover{
+    box-shadow: 0px 10px 50px rgba(17, 19, 180, 1);
+}
+
+.flex-box-container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.flex-box-container-4 form, .flex-box-container-4 button {
+    margin: 10px;
+}
+
+table, th, td{
+    padding: 10px;
+    border: 1px solid black
+}
+
+td {
+    text-align: right;
+}
+
+.blackjack-row-1, .blackjack-row-2, .blackjack-row-3 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blackjack-row-1, .blackjack-row-2{
+    background: url('https://media.istockphoto.com/vectors/poker-table-background-in-green-color-vector-id1206505233?k=6&m=1206505233&s=612x612&w=0&h=3yK8zXZmrh3-tRVtw0wY-AiTTwnqFf_mmNlIGAjlr4E=');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.blackjack-row-1 div {
+    flex: 1; /* make each item in the div take same amount of space*/
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 40vh;
+}
+
+.blackjack-row-1 img {
+    width: 20%;
+    margin: 10px;
+}
+
+.blackjack-row-2 div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
